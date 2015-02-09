@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mKnolderDaoImplTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Creating a knol[0m[0m
+[0m[[0minfo[0m] [0m[32m- Creating a knol & testing the catch[0m[0m
+[0m[[0minfo[0m] [0m[32m- Deleting a knol[0m[0m
+[0m[[0minfo[0m] [0m[32m- Deleting a knol & testing the catch case[0m[0m
+[0m[[0minfo[0m] [0m[32m- selecting a knol[0m[0m
+[0m[[0minfo[0m] [0m[32m- selecting a knol and testing the catch case[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating a knol[0m[0m
+[0m[[0minfo[0m] [0m[32m- updating a knol and testing the catch case[0m[0m

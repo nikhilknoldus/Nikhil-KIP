@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mKnolderSessionDaoImplTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing the Inserting of knolder into knoldersession[0m[0m
+[0m[[0minfo[0m] [0m[32m- testing insertation for catch case coverage[0m[0m
+[0m[[0minfo[0m] [0m[32m- Deleting a knoldersession[0m[0m
+[0m[[0minfo[0m] [0m[32m- Deleting a knoldersession for catch case coverage[0m[0m
+[0m[[0minfo[0m] [0m[32m- Selecting the concerned knolder[0m[0m
+[0m[[0minfo[0m] [0m[32m- selecting a knolder with session for catch case coverage[0m[0m
+[0m[[0minfo[0m] [0m[32m- Testing the updation operation over the knoldersession record[0m[0m
+[0m[[0minfo[0m] [0m[32m- Testing the updation of knolder for session for covering the catch case[0m[0m

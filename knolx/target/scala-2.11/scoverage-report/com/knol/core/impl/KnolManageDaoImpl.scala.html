@@ -1,0 +1,668 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knol/core/impl/KnolManageDaoImpl.scala.html
+        </title>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/addons/pager/jquery.tablesorter.pager.min.js"></script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knol.core.impl
+</span>2 <span style=''>import com.knol.core
+</span>3 <span style=''>import com.knol.db.connection.DBConnectionImpl
+</span>4 <span style=''>import java.sql.ResultSet
+</span>5 <span style=''>import java.sql.PreparedStatement
+</span>6 <span style=''>import com.knol.core.KnolManageDao
+</span>7 <span style=''>
+</span>8 <span style=''>class KnolManageDaoImpl extends DBConnectionImpl with KnolManageDao {
+</span>9 <span style=''>
+</span>10 <span style=''>  /*
+</span>11 <span style=''>  def testCon(): Int = {
+</span>12 <span style=''>    val conImpl = new DBConnectionImpl()
+</span>13 <span style=''>    val con = conImpl.getConnection()
+</span>14 <span style=''>    con match {
+</span>15 <span style=''>      case Some(con) =>
+</span>16 <span style=''>        1
+</span>17 <span style=''>      case None => throw new Exception
+</span>18 <span style=''>    }
+</span>19 <span style=''>  }
+</span>20 <span style=''>*/
+</span>21 <span style=''>  def ShowAll: List[KnolManage] =
+</span>22 <span style=''>    {
+</span>23 <span style=''>      val jdb = </span><span style='background: #AEF1AE'>new DBConnectionImpl()</span><span style=''>
+</span>24 <span style=''>      import scala.collection.mutable;
+</span>25 <span style=''>      var list = </span><span style='background: #AEF1AE'>List[KnolManage]()</span><span style=''>;
+</span>26 <span style=''>      try {
+</span>27 <span style=''>        </span><span style='background: #AEF1AE'>val connection = jdb.getConnection()
+</span>28 <span style=''></span><span style='background: #AEF1AE'>        connection match {
+</span>29 <span style=''></span><span style='background: #AEF1AE'>          case Some(connection) => {
+</span>30 <span style=''></span><span style='background: #AEF1AE'>            val preparedStatement: PreparedStatement =
+</span>31 <span style=''></span><span style='background: #AEF1AE'>              connection.prepareStatement("select k.id, k.name,k.email,k.mobile,ks.id as 'sessionID', ks.topic,ks.date from knolder k, knoldersession ks where ks.knol_id=k.id; ");
+</span>32 <span style=''></span><span style='background: #AEF1AE'>            val resultSet: ResultSet = preparedStatement.executeQuery();
+</span>33 <span style=''></span><span style='background: #AEF1AE'>            if (resultSet.next() == false)
+</span>34 <span style=''></span><span style='background: #AEF1AE'>              </span><span style='background: #F0ADAD'>throw new NoSuchElementException</span><span style='background: #AEF1AE'>
+</span>35 <span style=''></span><span style='background: #AEF1AE'>            else {
+</span>36 <span style=''></span><span style='background: #AEF1AE'>              resultSet.previous()
+</span>37 <span style=''></span><span style='background: #AEF1AE'>              while (resultSet.next()) {
+</span>38 <span style=''></span><span style='background: #AEF1AE'>                var knol =
+</span>39 <span style=''></span><span style='background: #AEF1AE'>                  KnolManage(resultSet.getInt("id"), resultSet.getString("name"), resultSet.getString("email"), resultSet.getString("mobile"), resultSet.getInt("sessionId"), resultSet.getString("topic"), resultSet.getString("date"));
+</span>40 <span style=''></span><span style='background: #AEF1AE'>                list = list.::(knol)
+</span>41 <span style=''></span><span style='background: #AEF1AE'>              }
+</span>42 <span style=''></span><span style='background: #AEF1AE'>              list
+</span>43 <span style=''></span><span style='background: #AEF1AE'>            }
+</span>44 <span style=''></span><span style='background: #AEF1AE'>          }
+</span>45 <span style=''></span><span style='background: #AEF1AE'>          case None => list
+</span>46 <span style=''></span><span style='background: #AEF1AE'>        }</span><span style=''>
+</span>47 <span style=''>      } catch {
+</span>48 <span style=''>        case ee: Exception =>
+</span>49 <span style=''>          list
+</span>50 <span style=''>      }
+</span>51 <span style=''>    }
+</span>52 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          529
+          -
+          551
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knol.db.connection.DBConnectionImpl.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new com.knol.db.connection.DBConnectionImpl()
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          608
+          -
+          626
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.immutable.Nil
+        </td>
+        <td style="background: #AEF1AE">
+          immutable.this.Nil
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          648
+          -
+          1638
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val connection: Option[java.sql.Connection] = jdb.getConnection();
+  connection match {
+    case (x: java.sql.Connection)Some[java.sql.Connection]((connection @ _)) =&gt; {
+      val preparedStatement: java.sql.PreparedStatement = connection.prepareStatement(&quot;select k.id, k.name,k.email,k.mobile,ks.id as \'sessionID\', ks.topic,ks.date from knolder k, knoldersession ks where ks.knol_id=k.id; &quot;);
+      val resultSet: java.sql.ResultSet = preparedStatement.executeQuery();
+      if (resultSet.next().==(false))
+        throw new scala.`package`.NoSuchElementException()
+      else
+        {
+          resultSet.previous();
+          while$1(){
+            if (resultSet.next())
+              {
+                {
+                  var knol: com.knol.core.impl.KnolManage = KnolManage.apply(resultSet.getInt(&quot;id&quot;), resultSet.getString(&quot;name&quot;), resultSet.getString(&quot;email&quot;), resultSet.getString(&quot;mobile&quot;), resultSet.getInt(&quot;sessionId&quot;), resultSet.getString(&quot;topic&quot;), resultSet.getString(&quot;date&quot;));
+                  list = list.::[com.knol.core.impl.KnolManage](knol)
+                };
+                while$1()
+              }
+            else
+              ()
+          };
+          list
+        }
+    }
+    case scala.None =&gt; list
+  }
+}
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          665
+          -
+          684
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knol.db.connection.DBConnectionImpl.getConnection
+        </td>
+        <td style="background: #AEF1AE">
+          jdb.getConnection()
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          818
+          -
+          982
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Connection.prepareStatement
+        </td>
+        <td style="background: #AEF1AE">
+          connection.prepareStatement(&quot;select k.id, k.name,k.email,k.mobile,ks.id as \'sessionID\', ks.topic,ks.date from knolder k, knoldersession ks where ks.knol_id=k.id; &quot;)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          1023
+          -
+          1055
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.PreparedStatement.executeQuery
+        </td>
+        <td style="background: #AEF1AE">
+          preparedStatement.executeQuery()
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          1073
+          -
+          1098
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.==
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.next().==(false)
+        </td>
+      </tr><tr>
+        <td>
+          34
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          1114
+          -
+          1146
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.NoSuchElementException()
+        </td>
+      </tr><tr>
+        <td>
+          34
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          1114
+          -
+          1146
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.NoSuchElementException()
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          1164
+          -
+          1588
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  resultSet.previous();
+  while$1(){
+    if (resultSet.next())
+      {
+        {
+          var knol: com.knol.core.impl.KnolManage = KnolManage.apply(resultSet.getInt(&quot;id&quot;), resultSet.getString(&quot;name&quot;), resultSet.getString(&quot;email&quot;), resultSet.getString(&quot;mobile&quot;), resultSet.getInt(&quot;sessionId&quot;), resultSet.getString(&quot;topic&quot;), resultSet.getString(&quot;date&quot;));
+          list = list.::[com.knol.core.impl.KnolManage](knol)
+        };
+        while$1()
+      }
+    else
+      ()
+  };
+  list
+}
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          1180
+          -
+          1200
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.previous
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.previous()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          1215
+          -
+          1215
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          ()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          1240
+          -
+          1240
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knol.core.impl.KnolManageDaoImpl.while$1
+        </td>
+        <td style="background: #AEF1AE">
+          while$1()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          1215
+          -
+          1215
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          ()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          1222
+          -
+          1238
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.next
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.next()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          1240
+          -
+          1555
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  {
+    var knol: com.knol.core.impl.KnolManage = KnolManage.apply(resultSet.getInt(&quot;id&quot;), resultSet.getString(&quot;name&quot;), resultSet.getString(&quot;email&quot;), resultSet.getString(&quot;mobile&quot;), resultSet.getInt(&quot;sessionId&quot;), resultSet.getString(&quot;topic&quot;), resultSet.getString(&quot;date&quot;));
+    list = list.::[com.knol.core.impl.KnolManage](knol)
+  };
+  while$1()
+}
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          1473
+          -
+          1500
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getString
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getString(&quot;date&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          1298
+          -
+          1320
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getInt
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getInt(&quot;id&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          1381
+          -
+          1410
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getString
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getString(&quot;mobile&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          1351
+          -
+          1379
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getString
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getString(&quot;email&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          1443
+          -
+          1471
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getString
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getString(&quot;topic&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          1287
+          -
+          1501
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knol.core.impl.KnolManage.apply
+        </td>
+        <td style="background: #AEF1AE">
+          KnolManage.apply(resultSet.getInt(&quot;id&quot;), resultSet.getString(&quot;name&quot;), resultSet.getString(&quot;email&quot;), resultSet.getString(&quot;mobile&quot;), resultSet.getInt(&quot;sessionId&quot;), resultSet.getString(&quot;topic&quot;), resultSet.getString(&quot;date&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          1322
+          -
+          1349
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getString
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getString(&quot;name&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          1412
+          -
+          1441
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.ResultSet.getInt
+        </td>
+        <td style="background: #AEF1AE">
+          resultSet.getInt(&quot;sessionId&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          40
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          1526
+          -
+          1539
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.::
+        </td>
+        <td style="background: #AEF1AE">
+          list.::[com.knol.core.impl.KnolManage](knol)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

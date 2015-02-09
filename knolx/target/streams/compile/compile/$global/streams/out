@@ -1,0 +1,140 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 11 Scala sources to /home/knoldus/workspace/knolx/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 12e7e3aa, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/knoldus/workspace/knolx/target/scala-2.11/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/resources.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/rt.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/sunrsasign.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/jsse.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/jce.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/charsets.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/lib/jfr.jar:/home/knoldus/Documents/Softwares/java/jdk1.7.0_71/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/workspace/knolx/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.21.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.13.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.13.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.0.4.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.4.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 6.554457461 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, ShowAll, $asInstanceOf, logger, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, <init>, ==, clone, KnolManageDaoImpl, toString, !=, getClass, ne, user, eq, ##, finalize, hashCode, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, logger, DBConnection, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, ==, clone, $init$, toString, !=, getClass, ne, user, eq, ##, finalize, hashCode, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala: Set(logger, DBConnection, getConnection, asInstanceOf, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala: Set(logger, getConnection, asInstanceOf, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala: Set(logger, DBConnection, getConnection, config)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala: Set(logger, DBConnection, getConnection, asInstanceOf, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala: Set(logger, getConnection, asInstanceOf, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala: Set(getConnection, asInstanceOf, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, logger, insert, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, KnolderSessionDaoImpl, isInstanceOf, <init>, ==, clone, delete, toString, !=, getClass, update, ne, user, eq, ##, finalize, hashCode, selectById, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, logger, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, <init>, ==, clone, DBConnectionImpl, toString, !=, getClass, ne, user, eq, ##, finalize, hashCode, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala: Set(logger, getConnection, asInstanceOf, isInstanceOf, <init>, ==, DBConnectionImpl)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala: Set(logger, getConnection, asInstanceOf, isInstanceOf, <init>, ==, DBConnectionImpl)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala: Set(getConnection, asInstanceOf, isInstanceOf, <init>, ==, DBConnectionImpl)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, insert, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, delete, toString, !=, getClass, update, KnolderDao, ne, eq, ##, finalize, hashCode, selectById.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala: Set(asInstanceOf, isInstanceOf, ==, KnolderDao)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, ShowAll, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, KnolManageDao, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala: Set(asInstanceOf, isInstanceOf, ==, KnolManageDao)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/Knolder.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, copy$default$2, $asInstanceOf, email, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, id, ==, clone, copy$default$3, copy, Knolder, toString, !=, getClass, copy$default$1, ne, mobile, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala: Set(name, email, asInstanceOf, isInstanceOf, <init>, id, ==, Knolder, mobile)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderDao.scala: Set(Knolder)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManage.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, copy$default$2, $asInstanceOf, copy$default$5, email, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, id, date, ==, clone, copy$default$7, copy$default$3, copy, toString, !=, topic, KnolManage, getClass, copy$default$1, copy$default$6, ne, mobile, sid, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolManageDao.scala: Set(KnolManage)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala: Set(asInstanceOf, isInstanceOf, <init>, ==, KnolManage)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSession.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, KnolderSession, <init>, id, date, ==, clone, copy$default$3, copy, toString, !=, topic, getClass, copy$default$1, ne, knol_id, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala: Set(KnolderSession)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala: Set(asInstanceOf, isInstanceOf, KnolderSession, <init>, id, date, ==, topic, knol_id)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	KnolderDaoImpl, notify, wait, $asInstanceOf, logger, insert, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, <init>, ==, clone, delete, toString, !=, getClass, update, ne, user, eq, ##, finalize, hashCode, selectById, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolderSessionDao.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, insert, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, KnolderSessionDao, ==, clone, delete, toString, !=, getClass, update, ne, eq, ##, finalize, hashCode, selectById.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala: Set(asInstanceOf, isInstanceOf, KnolderSessionDao, ==)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

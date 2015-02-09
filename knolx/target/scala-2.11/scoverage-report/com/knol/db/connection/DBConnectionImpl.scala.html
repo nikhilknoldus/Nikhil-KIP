@@ -1,0 +1,286 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knol/db/connection/DBConnectionImpl.scala.html
+        </title>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/addons/pager/jquery.tablesorter.pager.min.js"></script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knol.db.connection
+</span>2 <span style=''>import java.sql._
+</span>3 <span style=''>import java.sql.DriverManager
+</span>4 <span style=''>import com.mysql.jdbc.Connection._
+</span>5 <span style=''>import com.typesafe.config.ConfigFactory
+</span>6 <span style=''>/*
+</span>7 <span style=''> * class DBConnectionImpl is extending the DBConneciton trait and
+</span>8 <span style=''> * defining the connection details with the database
+</span>9 <span style=''> */
+</span>10 <span style=''>class DBConnectionImpl extends DBConnection {
+</span>11 <span style=''>  def getConnection(): Option[java.sql.Connection] ={
+</span>12 <span style=''>      </span><span style='background: #AEF1AE'>Class.forName("com.mysql.jdbc.Driver")</span><span style=''>;
+</span>13 <span style=''>      try {
+</span>14 <span style=''>        </span><span style='background: #AEF1AE'>val config = ConfigFactory.load();
+</span>15 <span style=''></span><span style='background: #AEF1AE'>        val url:String = config.getString("db.url");
+</span>16 <span style=''></span><span style='background: #AEF1AE'>        val user:String = config.getString("db.user")
+</span>17 <span style=''></span><span style='background: #AEF1AE'>        val password:String = config.getString("db.password");
+</span>18 <span style=''></span><span style='background: #AEF1AE'>        val conn=DriverManager.getConnection("jdbc:mysql://localhost/test","root","root");
+</span>19 <span style=''></span><span style='background: #AEF1AE'>        logger.debug("Connection created")
+</span>20 <span style=''></span><span style='background: #AEF1AE'>        Some(conn)</span><span style=''>
+</span>21 <span style=''>      }catch {
+</span>22 <span style=''>        case e: Exception => </span><span style='background: #F0ADAD'>None</span><span style=''>
+</span>23 <span style=''>          
+</span>24 <span style=''>          }
+</span>25 <span style=''>    }
+</span>26 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          160
+        </td>
+        <td>
+          387
+          -
+          425
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Class.forName
+        </td>
+        <td style="background: #AEF1AE">
+          java.this.lang.Class.forName(&quot;com.mysql.jdbc.Driver&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          168
+        </td>
+        <td>
+          447
+          -
+          804
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val config: com.typesafe.config.Config = com.typesafe.config.ConfigFactory.load();
+  val url: String = config.getString(&quot;db.url&quot;);
+  val user: String = config.getString(&quot;db.user&quot;);
+  val password: String = config.getString(&quot;db.password&quot;);
+  val conn: java.sql.Connection = java.sql.DriverManager.getConnection(&quot;jdbc:mysql://localhost/test&quot;, &quot;root&quot;, &quot;root&quot;);
+  DBConnectionImpl.this.logger.debug(&quot;Connection created&quot;);
+  scala.Some.apply[java.sql.Connection](conn)
+}
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          161
+        </td>
+        <td>
+          460
+          -
+          480
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.typesafe.config.ConfigFactory.load
+        </td>
+        <td style="background: #AEF1AE">
+          com.typesafe.config.ConfigFactory.load()
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          162
+        </td>
+        <td>
+          507
+          -
+          533
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.typesafe.config.Config.getString
+        </td>
+        <td style="background: #AEF1AE">
+          config.getString(&quot;db.url&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          163
+        </td>
+        <td>
+          561
+          -
+          588
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.typesafe.config.Config.getString
+        </td>
+        <td style="background: #AEF1AE">
+          config.getString(&quot;db.user&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          164
+        </td>
+        <td>
+          619
+          -
+          650
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.typesafe.config.Config.getString
+        </td>
+        <td style="background: #AEF1AE">
+          config.getString(&quot;db.password&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          165
+        </td>
+        <td>
+          669
+          -
+          741
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.DriverManager.getConnection
+        </td>
+        <td style="background: #AEF1AE">
+          java.sql.DriverManager.getConnection(&quot;jdbc:mysql://localhost/test&quot;, &quot;root&quot;, &quot;root&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          166
+        </td>
+        <td>
+          751
+          -
+          785
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.Logger.debug
+        </td>
+        <td style="background: #AEF1AE">
+          DBConnectionImpl.this.logger.debug(&quot;Connection created&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          167
+        </td>
+        <td>
+          794
+          -
+          804
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Some.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Some.apply[java.sql.Connection](conn)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          169
+        </td>
+        <td>
+          849
+          -
+          853
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.None
+        </td>
+        <td style="background: #F0ADAD">
+          scala.None
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

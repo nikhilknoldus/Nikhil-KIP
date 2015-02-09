@@ -1,0 +1,600 @@
+<scoverage 
+statement-count="169" statements-invoked="158" statement-rate="93.49" branch-rate="92.86" version="1.0" timestamp="1423480408193">
+    <packages>
+        <package name="com.knol.core.impl" statement-count="153" statements-invoked="143" statement-rate="93.46">
+            <classes>
+                <class 
+                name="KnolderSessionDaoImpl" filename="/com/knol/core/impl/KnolderSessionDaoImpl.scala" statement-count="64" statements-invoked="60" statement-rate="93.75" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/KnolderSessionDaoImpl/update" statement-count="19" statements-invoked="18" statement-rate="94.74" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3429" end="3464" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3648" end="3670" line="112" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3493" end="3502" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3719" end="3726" line="114" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3292" end="3779" line="104" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3523" end="3530" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3309" end="3328" line="105" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3599" end="3621" line="111" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3480" end="3490" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3686" end="3704" line="113" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3694" end="3703" line="113" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3467" end="3477" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3765" end="3769" line="117" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3505" end="3520" line="109" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3556" end="3584" line="110" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3907" end="3911" line="123" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3249" end="3271" line="103" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3850" end="3894" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="update" start="3429" end="3530" line="109" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderSessionDaoImpl/insert" statement-count="15" statements-invoked="14" statement-rate="93.33" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="811" end="916" line="28" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1324" end="1350" line="38" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1070" end="1090" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1401" end="1422" line="41" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1177" end="1223" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="801" end="1242" line="27" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="695" end="714" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1028" end="1047" line="30" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1366" end="1367" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1138" end="1151" line="33" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1103" end="1113" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="649" end="671" line="23" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1164" end="1224" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="939" end="1004" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="insert" start="1311" end="1351" line="38" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderSessionDaoImpl/selectById" statement-count="16" statements-invoked="15" statement-rate="93.75" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2375" end="2397" line="76" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2901" end="2921" line="87" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2986" end="3007" line="90" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2621" end="2686" line="83" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="3145" end="3149" line="96" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2801" end="2810" line="86" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2764" end="2785" line="85" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="3088" end="3132" line="95" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2879" end="2899" line="87" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2938" end="2948" line="88" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2545" end="2596" line="82" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2837" end="2922" line="87" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2435" end="2454" line="78" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2418" end="3017" line="77" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2712" end="2740" line="84" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="selectById" start="2856" end="2877" line="87" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderSessionDaoImpl/delete" statement-count="14" statements-invoked="13" statement-rate="92.86" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1870" end="1900" line="56" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1920" end="1938" line="57" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="2042" end="2079" line="61" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1696" end="1739" line="53" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1545" end="1564" line="48" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1686" end="1965" line="52" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="2164" end="2168" line="66" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1820" end="1842" line="55" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1928" end="1937" line="57" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1497" end="1519" line="47" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1953" end="1965" line="58" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1764" end="1792" line="54" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="2096" end="2100" line="62" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderSessionDaoImpl" class-type="Class" top-level-class="KnolderSessionDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderSessionDaoImpl.scala" method="delete" start="1857" end="1901" line="56" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="KnolManageDaoImpl" filename="/com/knol/core/impl/KnolManageDaoImpl.scala" statement-count="25" statements-invoked="23" statement-rate="92.00" branch-rate="80.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/KnolManageDaoImpl/ShowAll" statement-count="25" statements-invoked="23" statement-rate="92.00" branch-rate="80.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1215" end="1215" line="37" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1473" end="1500" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1114" end="1146" line="34" branch="true" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1298" end="1320" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1240" end="1240" line="37" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="608" end="626" line="25" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1023" end="1055" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1381" end="1410" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1351" end="1379" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="818" end="982" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1215" end="1215" line="37" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1443" end="1471" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1114" end="1146" line="34" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="648" end="1638" line="26" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1222" end="1238" line="37" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="529" end="551" line="23" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1526" end="1539" line="40" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1287" end="1501" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1180" end="1200" line="36" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1240" end="1555" line="37" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="665" end="684" line="27" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1322" end="1349" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1412" end="1441" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1164" end="1588" line="35" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolManageDaoImpl" class-type="Class" top-level-class="KnolManageDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolManageDaoImpl.scala" method="ShowAll" start="1073" end="1098" line="33" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="KnolderDaoImpl" filename="/com/knol/core/impl/KnolderDaoImpl.scala" statement-count="64" statements-invoked="60" statement-rate="93.75" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/KnolderDaoImpl/delete" statement-count="14" statements-invoked="13" statement-rate="92.86" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2236" end="2506" line="72" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2114" end="2133" line="68" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2705" end="2709" line="86" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2363" end="2385" line="75" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2467" end="2478" line="77" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2400" end="2444" line="76" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2494" end="2506" line="78" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2068" end="2090" line="67" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2637" end="2641" line="82" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2307" end="2335" line="74" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2413" end="2443" line="76" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2459" end="2479" line="77" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2246" end="2282" line="73" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="delete" start="2583" end="2620" line="81" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderDaoImpl/selectById" statement-count="16" statements-invoked="15" statement-rate="93.75" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3333" end="3354" line="104" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3635" end="3679" line="114" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3440" end="3461" line="106" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3119" end="3170" line="101" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3502" end="3512" line="107" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3009" end="3028" line="97" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3406" end="3486" line="106" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3281" end="3309" line="103" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="2992" end="3564" line="96" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3418" end="3438" line="106" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3370" end="3379" line="105" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3692" end="3696" line="115" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3463" end="3485" line="106" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="2949" end="2971" line="95" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3195" end="3255" line="102" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="selectById" start="3550" end="3554" line="109" branch="false" invocation-count="0">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderDaoImpl/update" statement-count="20" statements-invoked="19" statement-rate="95.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4393" end="4402" line="136" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4228" end="4239" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4463" end="4467" line="139" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4605" end="4609" line="145" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4144" end="4267" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4024" end="4043" line="129" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4186" end="4197" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4348" end="4370" line="135" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4174" end="4183" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4418" end="4425" line="137" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4213" end="4225" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4260" end="4267" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4548" end="4592" line="144" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="3964" end="3986" line="127" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4007" end="4477" line="128" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4242" end="4257" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4293" end="4321" line="134" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4144" end="4171" line="133" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4385" end="4403" line="136" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="update" start="4200" end="4210" line="133" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolderDaoImpl/insert" statement-count="14" statements-invoked="13" statement-rate="92.86" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1539" end="1549" line="48" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1600" end="1660" line="50" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1093" end="1115" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1375" end="1440" line="45" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1793" end="1794" line="55" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1506" end="1526" line="47" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1613" end="1659" line="50" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1747" end="1778" line="54" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1255" end="1352" line="44" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1139" end="1158" line="40" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1245" end="1678" line="43" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1464" end="1483" line="46" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1828" end="1849" line="57" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolderDaoImpl" class-type="Class" top-level-class="KnolderDaoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolderDaoImpl.scala" method="insert" start="1574" end="1587" line="49" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.knol.db.connection" statement-count="16" statements-invoked="15" statement-rate="93.75">
+            <classes>
+                <class 
+                name="DBConnectionImpl" filename="/com/knol/db/connection/DBConnectionImpl.scala" statement-count="10" statements-invoked="9" statement-rate="90.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.db.connection/DBConnectionImpl/getConnection" statement-count="10" statements-invoked="9" statement-rate="90.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="619" end="650" line="17" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="794" end="804" line="20" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="751" end="785" line="19" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="849" end="853" line="22" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="387" end="425" line="12" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="561" end="588" line="16" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="669" end="741" line="18" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="447" end="804" line="13" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="507" end="533" line="15" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnectionImpl" class-type="Class" top-level-class="DBConnectionImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnectionImpl.scala" method="getConnection" start="460" end="480" line="14" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="DBConnection" filename="/com/knol/db/connection/DBConnection.scala" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.db.connection/DBConnection/&lt;none&gt;" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="306" end="344" line="12" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="435" end="462" line="15" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="330" end="343" line="12" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="394" end="420" line="14" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="360" end="380" line="13" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="DBConnection" class-type="Trait" top-level-class="DBConnection" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/DBConnection.scala" method="&lt;none&gt;" start="480" end="511" line="16" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

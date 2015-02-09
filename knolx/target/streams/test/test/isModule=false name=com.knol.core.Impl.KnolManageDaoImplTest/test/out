@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mKnolManageDaoImplTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Testing the join query for fetching the matching result from both knolder and knoldersession tables[0m[0m
+[0m[[0minfo[0m] [0m[31m- Testing the join query for fetching the matching result from both knolder and knoldersession tables for catch case coverage *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'knoldersession'[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at java.lang.reflect.Constructor.newInstance(Constructor.java:526)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.Util.getInstance(Util.java:386)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
